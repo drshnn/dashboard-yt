@@ -1,13 +1,15 @@
 .sidebar{
     flex:1;
-
+    border-right: 1.5px solid rgb(215, 215, 215);
+    min-height: 100vh;
     .top{
-        height:50px;
+        height:4rem;
         display: flex;
         align-items: center;
-        justify-content: center;
-
-            padding: .7rem;
-
+        padding:0 2rem ;
+        border-bottom: 1.5px solid rgb(215, 215, 215);
+    }
+    .center{
+        padding:0 2rem ;
     }
 }
