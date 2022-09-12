@@ -1,15 +1,40 @@
 .sidebar{
     flex:1;
-    border-right: 1.5px solid rgb(215, 215, 215);
     min-height: 100vh;
     .top{
         height:4rem;
         display: flex;
         align-items: center;
         justify-content: center;
-        border-bottom: 1.5px solid rgb(215, 215, 215);
     }
     .center{
-        padding:2rem ;
+        padding-left:1.8rem ;
+        ul{
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+        li{
+        padding:.7em 1rem;
+            border-radius: .5rem;
+            display: flex;
+            align-items: center;
+            color: #191919;
+            &:hover{
+
+            background-color: #ECEEF1;
+            }
+            .icon{
+                height: 1.7rem;
+                margin-right: .8rem;
+
+            }
+            .menu-name{
+                font-size: 1.1rem;
+                font-weight: 600;
+            }
+        }
+        }
     }
 }
